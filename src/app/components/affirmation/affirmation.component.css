@@ -1,0 +1,57 @@
+/* Reset some default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the container */
+.affirmation-container {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the random affirmation text */
+.random p {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ... other styles ... */
+
+button {
+    font-family: 'Roboto', sans-serif;
+    background-color: #008CBA; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: transform 0.3s, box-shadow 0.3s; /* Updated this line */
+}
+
+
+button:hover {
+    background-color: #005f5f;
+    transform: translateY(-5px); /* This moves the button up */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1); /* This adds a shadow below */
+}
+

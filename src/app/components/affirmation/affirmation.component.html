@@ -1,0 +1,6 @@
+<div class="affirmation-container">
+  <div class="random" *ngIf="randomAffirmation">
+    <p>{{ randomAffirmation }}</p>
+  </div>
+  <button (click)="loadRandomAffirmation()">Get Random Affirmation</button>
+</div>
