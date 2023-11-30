@@ -30,11 +30,11 @@
 }
 
 
-/* ... other styles ... */
+
 
 button {
     font-family: 'Roboto', sans-serif;
-    background-color: #008CBA; /* Blue */
+    background-color: #008CBA;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -45,13 +45,13 @@ button {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 4px;
-    transition: transform 0.3s, box-shadow 0.3s; /* Updated this line */
+    transition: transform 0.3s, box-shadow 0.3s; 
 }
 
 
 button:hover {
     background-color: #005f5f;
-    transform: translateY(-5px); /* This moves the button up */
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1); /* This adds a shadow below */
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
 }
 
